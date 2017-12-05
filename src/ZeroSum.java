@@ -16,6 +16,7 @@ public class ZeroSum {
             }
             if(sum == 0){
                 maxLength = i+1;
+                start = 0;
                 end = i;
             }
             if(numSum.get(sum)!=null){
